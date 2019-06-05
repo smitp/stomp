@@ -137,7 +137,7 @@ module Stomp
         @reliable = reliable
         @reconnect_delay = reconnect_delay
         @connect_headers = connect_headers
-        @ssl = false
+        @ssl = true
         @parameters = nil
         @parse_timeout = 5		# To override, use hashed parameters
         @connect_timeout = 0	# To override, use hashed parameters
